@@ -1,0 +1,181 @@
+@charset "utf-8";
+html {
+	background-image: url(images/pozadina.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.wrapper {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+}
+.header {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.logo{
+	float: left;
+}
+.slogan{
+	float: right;
+	padding-top: 40px;
+	font-size: xx-large;
+	color: #0D4F9D;
+}
+.nav {
+	height:40px;
+	margin:0 0 30px;
+    background:rgba(13,79,157);
+}
+
+.nav ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.nav ul li {
+	float:left;
+	position:relative;
+}
+
+.nav ul li a {
+	padding:10px 14px;
+	height:20px;
+	display:block;
+	text-decoration: none;
+}
+
+.nav ul li a:link,
+.nav ul li a:visited {
+	color:#FFFFFF;
+	transition:all 500ms linear;
+}
+.nav ul li a:hover {
+	background:#4CBEE7;
+}
+.nav ul li a:active {
+	color:#000000;
+	background:#777777;
+}
+
+.nav ul li ul {
+	background:#188FBA;
+	position:absolute;
+	top:100%;
+	left:0;
+	width:180px;
+	display:none; /* u startu */
+}
+
+.nav ul li:hover > ul {
+	display:block; /* padajuci */
+}
+
+
+.nav ul li ul li {
+	float:none;
+}
+.social {
+	float: right;
+	font-size: 20px;
+	padding: 10px 0;
+}
+.social a:link,
+.social a:visited {
+	color:#FFFFFF;
+	transition:all 500ms linear;
+}
+.social a:hover {
+	background:#136F90;
+}
+.social a:active {
+	color:#000000;
+	background:#777777;
+}
+.main {
+	float: left;
+	width: 730px;
+}
+.main-slike {
+	text-align: center;
+	float: left;
+	margin-left: 43px;	
+	color: #FFFFFF;
+	font-size: 20px;
+}
+.main-slike a:link {
+	text-decoration: none;
+}
+.main-sporedni {
+	float: left;
+	width: 700px;
+	background-color: rgba(48,179,226,0.61);
+	margin-bottom: 20px;
+	padding: 10px;
+	margin-right: 10px;
+}
+.sidebar {
+	width: 210px;
+	float: right;
+	padding: 10px;
+    background:rgba(13,79,157);
+}
+.article {
+	width: 200px;
+	margin-right:5px;
+	margin-left: 5px;
+}
+.section {
+	width: 200px;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+.footer {
+	clear: both;
+	background-color: rgba(13,79,157);
+	color: #FFFFFF;
+	text-align: center;
+	padding: 10px;
+}
+.footer p {
+	margin:0;
+}
+h1, h2 {
+	text-align: center;
+	color: #0D4F9D;
+}
+
+p{
+	color: #FFFFFF;
+}
+.video {
+	margin-left: 50px;
+	
+}
+.mapa {
+	float: left;
+	padding-right: 10px;
+}
+.right-picture {
+	margin-left: 10px;
+}
+input[type="text"],
+textarea{
+	width: 60%;
+	border: 2px solid #0D4F9D;
+	padding: 10px;
+}
+input[type="submit"],
+input[type="reset"]{
+	background-color: #0D4F9D;
+	color: #FFFFFF;
+	padding: 5px;
+}
